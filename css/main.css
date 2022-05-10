@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #181f2a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-color: #181f2a;
+}
+
+.wrapper {
+  background-color: #1c2431;
+}
+
+header {
+  background-color: #1c2431;
+  margin: 0 1.5em;
+}
+
+nav {
+  padding-top: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav img {
+  width: 6rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 1em 0 auto;
+}
+
+nav ul li {
+  margin: .4em .8em .4em .8em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+nav ul li a:hover {
+  font-weight: 600;
+  border-bottom: 1.5px solid white;
+}
+
+.intro-image {
+  width: 90%;
+  margin: 3.5em 1em;
+}
+
+.curvy-svg {
+  margin: -4em 0 -1em 0;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin: -4em 2em 0 2em;
+}
+
+.hero-paragraph {
+  color: white;
+  text-align: center;
+  margin: 1em 4em 3.5em 4em;
+}
+
+.get-started {
+  text-align: center;
+  margin: 2em  0 7em 0;
+}
+
+.get-started a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  background: #339ecc;
+  padding: 1em 5em;
+  border-radius: 30px;
+}
+
+.get-started a:hover {
+  background-color: #65e2d9;
+}
+
+.flex-grid .card-items {
+  margin: 8em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-grid .card-items img {
+  display: block;
+  width: 20%;
+  margin: 1em auto 2em auto;
+}
+
+.flex-grid .card-items h4 {
+  color: white;
+  text-align: center;
+}
+
+.flex-grid .card-items p {
+  color: white;
+  text-align: center;
+  margin: 1em 4em 3.5em 4em;
+}
+
+.productive-flex {
+  margin: 2em;
+}
+
+.productive-flex img {
+  width: 100%;
+}
+
+.productive-flex h3 {
+  color: white;
+  margin-top: 4em;
+}
+
+.productive-flex p {
+  color: white;
+  margin: 1em 0;
+}
+
+.productive-flex p a {
+  text-decoration: none;
+  color: #65e2d9;
+  border-bottom: 2px solid #65e2d9;
+}
+
+.productive-flex p a:hover {
+  color: white;
+  border-bottom: 2.4px solid white;
+}
+
+.review-flex {
+  margin: 8em 4em -18em 4em;
+}
+
+.review-flex .review-card {
+  background-color: #202a3c;
+  border-radius: 5px;
+  margin: 0 0 2em 0;
+}
+
+.review-flex .review-card:hover {
+  padding: .4em;
+}
+
+.review-flex .review-card .review-paragraph {
+  color: white;
+  padding: 2em;
+  margin-bottom: -2em;
+}
+
+.review-flex .review-card .founder-flex {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.review-flex .review-card .founder-flex img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.review-flex .review-card .founder-flex .founder-text {
+  margin: 0 0 0 1em;
+}
+
+.review-flex .review-card .founder-flex .founder-text h4 {
+  color: white;
+}
+
+.review-flex .review-card .founder-flex .founder-text p {
+  color: white;
+  font-size: .9rem;
+}
+
+.review-flex .last {
+  margin-bottom: 10em;
+}
+
+.form {
+  background-color: #1c2431;
+  margin: 0 2.5em 2.5em 2.5em;
+  padding-bottom: 1.5em;
+  border-radius: 10px;
+  position: relative;
+  top: 20em;
+}
+
+.form h4 {
+  color: white;
+  text-align: center;
+  margin: 0 2em;
+  padding: 2em;
+}
+
+.form p {
+  color: white;
+  text-align: center;
+  margin: 0 2em;
+}
+
+.form .initial {
+  margin-bottom: 2em;
+}
+
+.form .form-flex form input {
+  border: none;
+  border-radius: 35px;
+  padding: 1.5em;
+  width: 85%;
+  margin: 1em 2em;
+}
+
+.form .form-flex .final {
+  background-color: #65e2d9;
+  border-radius: 35px;
+  padding: 1.2em;
+  text-align: center;
+  margin: 1em 2em;
+}
+
+.form .form-flex .final:hover {
+  background-color: #339ecc;
+}
+
+.form .form-flex .final a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #0b1523;
+}
+
+footer .footer-container {
+  margin: 10em 2em 0 2em;
+  padding-top: 13em;
+  padding-bottom: 1em;
+  background-color: #0b1523;
+}
+
+footer .footer-container .logo {
+  margin: 1em 2em;
+  cursor: pointer;
+}
+
+footer .footer-container .footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 2em 0;
+}
+
+footer .footer-container .footer-flex img {
+  height: 20px;
+  margin: 0 1em 0 0;
+}
+
+footer .footer-container .footer-flex p {
+  color: white;
+  margin: 0 2.5em 0 1em;
+}
+
+footer .footer-container .final-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 4em 2em 3em;
+}
+
+footer .footer-container .final-flex .first-list {
+  list-style: none;
+  margin: 1em 2em 0 0;
+}
+
+footer .footer-container .final-flex .first-list li {
+  margin: 1em 0;
+}
+
+footer .footer-container .final-flex .first-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-container .final-flex .second-list {
+  list-style: none;
+  margin: 1em 2em 0 auto;
+}
+
+footer .footer-container .final-flex .second-list li {
+  margin: 1em 0;
+}
+
+footer .footer-container .final-flex .second-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    padding-top: 2.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav img {
+    width: 9rem;
+    height: 3rem;
+  }
+  nav ul {
+    margin: 0 5em 0 auto;
+  }
+  nav ul li {
+    margin: .9em 1.8em .9em 1.8em;
+  }
+  .intro-image {
+    display: block;
+    width: 50%;
+    margin: 3.5em auto;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    margin: -10em 10em 0 10em;
+  }
+  .hero-paragraph {
+    color: white;
+    text-align: center;
+    margin: 1em 18em 3.5em 18em;
+  }
+  .flex-grid {
+    margin: 1em auto;
+    width: 70%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  .flex-grid .card-items {
+    margin: 0;
+  }
+  .productive-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .productive-flex img {
+    width: 50%;
+    margin: 0 1em;
+  }
+  .productive-flex .productive-text {
+    margin: 0 1em;
+  }
+  .review-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin: 8em 6em -18em 6em;
+  }
+  .review-flex .quotes {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: -1em;
+  }
+  .review-flex .review-card {
+    margin: 0 1em;
+  }
+  .review-flex .review-card:hover {
+    padding: unset;
+  }
+  .review-flex .review-card .review-paragraph {
+    color: white;
+    padding: 1.5em;
+    margin-bottom: -2em;
+    font-size: .9rem;
+  }
+  .review-flex .review-card .founder-flex {
+    padding: 1em;
+    margin: .5em 0 0 0;
+  }
+  .review-flex .review-card .founder-text h4 {
+    margin: 0 0 .3em 0;
+  }
+  .form {
+    width: 60%;
+    display: block;
+    margin: 7em auto;
+  }
+  .form .form-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 2em;
+  }
+  .form .form-flex form {
+    width: 60%;
+  }
+  .form .form-flex .final {
+    width: 30%;
+    padding: .65em;
+    margin-left: .5em;
+  }
+  .footer-container {
+    display: block;
+  }
+  .footer-container .logo {
+    padding-left: 4.5em;
+  }
+  .footer-container .outer-footer-flex {
+    width: 85%;
+    margin: 2em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-container .outer-footer-flex .location {
+    width: 30%;
+  }
+  .footer-container .outer-footer-flex .final-flex {
+    margin-top: -2em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
